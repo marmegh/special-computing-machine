@@ -1,0 +1,29 @@
+Hi, @ViewBag.name!
+
+You've played @ViewBag.count games and won @ViewBag.wins!
+
+<form action = "game" method = "post">
+    <input type = "hidden" name = "name" value = @ViewBag.name>
+    <input type = "hidden" name = "count" value = @ViewBag.count>
+    <input type = "hidden" name = "wins" value = @ViewBag.wins>
+    <input type = "submit" name = "result" value = "rock">
+    <input type = "submit" name = "result" value = "paper">
+    <input type = "submit" name = "result" value = "scissors">
+    @if(@ViewBag.count == 0)
+        {<h2>Ready?</h2>}
+    @if(@ViewBag.count != 0)
+        {<h2>You drew</h2>
+        <h2>You @ViewBag.result!</h2>}
+</form>
+<form action = "reset" method = "post">
+    <input type = "hidden" name = "name" value = @ViewBag.name>
+    <input type = "hidden" name = "count" value = @ViewBag.count>
+    <input type = "hidden" name = "wins" value = @ViewBag.wins>
+    <input type = "submit" name = "reset" value = "reset">
+</form>
+<form action = "again" method = "post">
+    <input type = "hidden" name = "name" value = @ViewBag.name>
+    <input type = "hidden" name = "count" value = @ViewBag.count>
+    <input type = "hidden" name = "wins" value = @ViewBag.wins>
+    <input type = "submit" name = "play again" value = "play again">
+</form>

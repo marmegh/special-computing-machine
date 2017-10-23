@@ -1,0 +1,8 @@
+C:\Users\marym\Documents\Dojo\netCore\rps\bin\Debug\netcoreapp1.1\rps.deps.json
+C:\Users\marym\Documents\Dojo\netCore\rps\bin\Debug\netcoreapp1.1\rps.runtimeconfig.json
+C:\Users\marym\Documents\Dojo\netCore\rps\bin\Debug\netcoreapp1.1\rps.runtimeconfig.dev.json
+C:\Users\marym\Documents\Dojo\netCore\rps\bin\Debug\netcoreapp1.1\rps.dll
+C:\Users\marym\Documents\Dojo\netCore\rps\bin\Debug\netcoreapp1.1\rps.pdb
+C:\Users\marym\Documents\Dojo\netCore\rps\obj\Debug\netcoreapp1.1\rps.AssemblyInfo.cs
+C:\Users\marym\Documents\Dojo\netCore\rps\obj\Debug\netcoreapp1.1\rps.dll
+C:\Users\marym\Documents\Dojo\netCore\rps\obj\Debug\netcoreapp1.1\rps.pdb
